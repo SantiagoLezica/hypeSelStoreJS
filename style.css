@@ -1,0 +1,216 @@
+body{
+    padding: 0 auto;
+    margin:0;
+    background-image: url(./img/fondo.png);
+    background-attachment: fixed;
+}
+a img{
+    width: 150px;
+    height: auto;
+}
+.navbar{
+    background-color: white;
+}
+h1{
+    background-color: grey;
+    font-size: 50px;
+    text-align: center;
+
+}
+.textAlign{
+    text-align: center;
+}
+img{
+    width: 100%;
+    height: 500px;
+}
+.classConteiner{
+    flex-direction: row;
+    display:flex; 
+    justify-content: space-around;   
+    flex-wrap: wrap;
+    margin :auto;
+    padding-top: 20px;    
+}
+.card{
+    width: 300px;
+    height: auto;
+    padding-bottom: 20px;
+   
+    text-align: center;
+}
+.vistas .destinos{
+    text-align: center;
+}
+.card img {
+    width: 200px;
+    height: 200px;
+}
+.buton{
+    border-radius: 10px;    
+    border: 2px solid rgb(5, 5, 5);
+    background-color: rgb(97, 97, 97);   
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.div-carrito{
+    position: absolute;
+}
+
+.img-carrito{
+    height: 75px;
+    width: 75px;
+}
+
+.carrito-desplegable{
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1010;
+    height: 100%;
+    max-height: 100%;
+    background: #fff;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    max-width: 340px;
+    background-color: rgb(112, 111, 111);
+}
+
+.primer-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.primer-div div{
+    color: #fff;
+    font-size: 25px;
+}
+
+#close-carrito{
+    border-radius: 10px;
+    color: #fff;
+    background-color: black;
+}
+
+.no-visible{
+    display: none;
+}
+
+.indicator-value{
+    text-align: center;
+    border-radius: 100px;
+    width: 22px;
+    top: 1px;
+    right: 15px;
+    position:relative;
+    background-color: red;
+    height: 25px;
+    color: white;
+}
+
+.talles{
+    width: 50px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    
+}
+.talle{
+    display: flex;
+    justify-content: center;
+}
+.comprar{
+    border-radius: 10px;
+    background-color: red;
+    color: #fff;
+    height: 40px;
+}
+.imagenes{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.card img{
+    width: 250px;
+    height: 250px;
+}
+
+.card {   
+    border:1px solid black;
+    background-color:  rgb(255, 255, 255);
+    border-radius: 5%;
+    width: 300px;
+    height: auto;
+    padding-bottom: 20px;   
+    text-align: center;
+    margin: 5px 5px 5px;
+}
+.visible{
+    display: none;
+}
+
+.indicator-value{
+    text-align: center;
+    border-radius: 100px;
+    width: 22px;
+    top: 1px;
+    right: 15px;
+    position:relative;
+    background-color: red;
+    height: 25px;
+    color: white;
+}
+
+#carrito-conteiner{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 90%;
+}
+
+.propiedades-carrito{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: column;
+}
+
+.primer-orden{
+    display: flex;
+    flex-direction: row;
+    
+}
+.segundo-orden{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+.nombreSneaker{
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+#sumar{
+    margin-left: 5px;
+    cursor: pointer
+}
+#restar{
+    margin-right: 5px;
+    cursor: pointer;
+}
+#eliminar{
+    cursor: pointer;
+}
+.carritoTotal{
+
+    margin-left: 5px;
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+
+
+}

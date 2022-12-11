@@ -1,0 +1,147 @@
+[
+        {
+            "id": 1, 
+            "nombre": "Nike Jordan Retro 4 Off White",
+            "talles": [
+                {
+                    "talle":37,
+                    "stock":5,
+                    "cantidad":1
+                },
+                {
+                    "talle":40,
+                    "stock":10,
+                    "cantidad":1
+                },
+                {
+                    "talle":42,
+                    "stock":2,
+                    "cantidad":1
+                }
+                
+            ],
+            "imagen": "pag/jordan-4-offwhite.jpg",
+            "precio": 60000
+        },
+        {
+            "id": 2, 
+            "nombre": "Patta x Nike Air Max Monarch",
+            "talles": [
+                {
+                    "talle":38,
+                    "stock":2,
+                    "cantidad":1
+                },
+                {
+                    "talle":41,
+                    "stock":5,
+                    "cantidad":1
+                },
+                {
+                    "talle":44,
+                    "stock":1,
+                    "cantidad":1
+                }
+                
+            ],
+            "imagen": "pag/patta-x-nike-air-max-1-monarch.jpg",
+            "precio": 42000
+        },
+        {
+            "id": 3, 
+            "nombre": "Nike SB Dunk Low Parra",
+            "talles": [
+                {
+                    "talle":36,
+                    "stock":4,
+                    "cantidad":1
+                },
+                {
+                    "talle":39,
+                    "stock":7,
+                    "cantidad":1
+                },
+                {
+                    "talle":43,
+                    "stock":6,
+                    "cantidad":1
+                }
+                
+            ],
+            "imagen": "pag/nike-sb-dunk-low-pro-parra-abstract-art.jpg",
+            "precio": 48000
+        },
+        {
+            "id": 4, 
+            "nombre": "Nike Air Force 1 Black-Gold",
+            "talles": [
+                {
+                    "talle":41,
+                    "stock":10,
+                    "cantidad":1
+                },
+                {
+                    "talle":38,
+                    "stock":2,
+                    "cantidad":1
+                },
+                {
+                    "talle":40,
+                    "stock":8,
+                    "cantidad":1
+                }
+                
+            ],
+            "imagen": "pag/af1-black-gold.jpg",
+            "precio": 36000
+        },
+        {
+            "id": 5, 
+            "nombre": "Nike Jordan 1 Mid Candy",
+            "talles": [
+                {
+                    "talle":36,
+                    "stock":15,
+                    "cantidad":1
+                },
+                {
+                    "talle":39,
+                    "stock":12,
+                    "cantidad":1
+                },
+                {
+                    "talle":43,
+                    "stock":1,
+                    "cantidad":1
+                }
+                
+            ],
+            "imagen": "pag/jordan-1-mid-gs-candy.jpg",
+            "precio": 49000
+        },
+
+        {
+            "id":6, 
+            "nombre": "Nike Air Jordan 4 Yellow",
+            "talles": [
+                {
+                    "talle":41,
+                    "stock":4,
+                    "cantidad":1
+                },
+                {
+                    "talle": 42,
+                    "stock":7,
+                    "cantidad":1
+                },
+                {
+                    "talle":43,
+                    "stock":6,
+                    "cantidad":1
+                }
+                
+            ],
+            "imagen": "pag/jordan-4-yellow.jpg",
+            "precio": 50000
+        }
+]
