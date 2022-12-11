@@ -214,3 +214,15 @@ img{
 
 
 }
+#vaciar-carrito{
+    background-color: red;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    color: white;
+}
+#finalizar-compra{
+    background-color: rgb(17, 197, 17);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    color: white;
+}
